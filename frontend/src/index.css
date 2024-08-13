@@ -5,3 +5,7 @@ html, body {
   color: white;
   font-family: serif;
 }
+
+.image-inverted {
+  filter: invert(100%);
+}
