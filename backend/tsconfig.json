@@ -3,6 +3,10 @@
     "module": "NodeNext",
     "moduleResolution": "NodeNext",
     "target": "ES2022",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+
+
     "sourceMap": true,
     "outDir": "dist",
     "allowSyntheticDefaultImports": true
