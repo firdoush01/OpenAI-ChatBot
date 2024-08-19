@@ -1,6 +1,6 @@
 import { Request, Response, NextFunction } from "express"
 import { configureOpenAI } from "../config/openai-config";
-import { OpenAIApi, ChatCompletionRequestMessage } from "openai";
+import { OpenAIApi, ChatCompletionRequestMessage } from "openai";   // import issue
 import User from "../models/Users";
 
 
